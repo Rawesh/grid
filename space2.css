@@ -1,9 +1,13 @@
 		body {
+
 			background-image: url(bg.png);
 			font-family: Tahoma;
 		}
 		
 		#frame {
+			height: 452px;
+			margin: 0 auto;
+			width: 800px;
 			background-color: rgba(255,200,200,0.3);
 		}
 		
@@ -13,24 +17,37 @@
 		}
 		
 		#content {
-			
+		
 		}
 		
 		nav li {
+			display: inline;
+			padding: 5px;
 			
 		}
 		
 		nav li a {
+			color: black;
 		}
 		
 		main{
+			margin-right: 500px;
+			width: 500px;
+			position: relative;
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+
 		}
 		
 		aside{
+
+			margin-left: 500px;
+			position: absolute;
+			bottom:209px;
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			width: 300px;
+
 		}
 		
 		body article {
@@ -41,6 +58,11 @@
 		}
 		
 		footer {
+			margin-top: 55px;
 			background-color: rgba(255,255,200,0.3);
+		}
+
+		.header{
+			text-align: center;
 		}
 	
